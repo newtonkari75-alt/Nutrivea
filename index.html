@@ -47,7 +47,7 @@
     }
     </script>
 
-    <!-- Tracking Script -->
+    <!-- Tracking Script Ativo -->
     <script src="https://api.stuart-little.com/code/8300-84e05dae-4768-4d3f-be30-aad7c17eb55d"></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -118,7 +118,6 @@
             gap: 12px;
             border: 1px solid #f0f0f0;
             flex: 1;
-            transition: transform 0.3s ease;
         }
         .icon-circle {
             width: 36px;
@@ -148,6 +147,7 @@
         <section id="order" class="hero-section-bg border-b border-green-50 overflow-hidden">
             <div class="container mx-auto px-4 sm:px-6 py-10 md:py-20">
                 
+                <!-- Layout Grid/Flex Otimizado -->
                 <div class="flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-12 lg:gap-y-8 lg:items-center">
                     
                     <!-- 1. TITEL (Mobile Order 1) -->
@@ -162,7 +162,7 @@
                                 <i class="star-filled w-4 h-4" data-feather="star" style="fill: #f59e0b;"></i>
                             </div>
                             <div class="w-px h-4 bg-gray-400 opacity-50"></div>
-                            <span class="text-xs font-bold uppercase tracking-wide text-[#3FA67B]" data-translate="discount_badge">PROMOTIE : -48% KORTING</span>
+                            <span class="text-xs font-bold uppercase tracking-wide text-[#3FA67B]" data-translate="discount_badge">PROMOTIE : -46% KORTING</span>
                         </div>
 
                         <h1 class="text-center lg:text-left text-4xl sm:text-5xl lg:text-7xl font-extrabold mb-8 leading-tight tracking-tight text-[#2B2B2B]" data-translate="hero_title">
@@ -172,10 +172,9 @@
 
                     <!-- 2. FOTO + VOORDELEN (Mobile Order 2) -->
                     <div class="flex flex-col items-center justify-center gap-8 order-2 lg:col-start-2 lg:row-start-1 lg:row-span-3">
-                        <!-- Productfoto -->
                         <img src="images/Nutrivea.png" alt="Nutrivea Stoffwechsel Balance Formula" class="w-full max-w-[320px] lg:max-w-lg h-auto product-image-shadow transform hover:scale-105 transition-transform duration-700 reveal">
                         
-                        <!-- Voordelen direct onder de foto -->
+                        <!-- Badges (Aparecem logo abaixo da foto conforme solicitado) -->
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full reveal">
                             <div class="benefit-badge">
                                 <div class="icon-circle">
@@ -198,13 +197,12 @@
                         </div>
                     </div>
 
-                    <!-- 3. TEKST & PAYS (Mobile Order 3) -->
+                    <!-- 3. TEKST & LANDEN (Mobile Order 3) -->
                     <div class="flex flex-col items-center lg:items-start order-3 mt-8 lg:mt-0">
                         <p class="text-center lg:text-left text-lg md:text-2xl mb-12 text-slate-500 leading-relaxed max-w-xl font-medium reveal" data-translate="hero_desc">
                             Ondersteunt metabole balans, energie & spijsvertering · Premium-formule met natuurlijke ingrediënten.
                         </p>
                         
-                        <!-- Country Selector -->
                         <div class="w-full max-w-md reveal p-6 rounded-3xl bg-white/50 border border-[#3FA67B]/20 shadow-xl mb-6">
                             <div class="mb-6 text-center md:text-left">
                                 <span class="text-highlight text-xs uppercase tracking-widest" data-translate="select_country">
@@ -212,7 +210,7 @@
                                 </span>
                             </div>
                             <div class="flex flex-col gap-4">
-                                <a href="https://www.fasttrack37.com/PM7HK3TH/2RTD9225/?uid=49594" target="_blank" rel="noopener noreferrer" class="btn-country group flex items-center justify-between px-6 py-4 rounded-2xl shadow-lg border-[#3FA67B]">
+                                <a href="https://www.fasttrack37.com/PM7HK3TH/2RTD9225/?uid=49594" rel="noopener noreferrer" class="btn-country group flex items-center justify-between px-6 py-4 rounded-2xl shadow-lg border-[#3FA67B]">
                                     <div class="flex flex-col items-start text-left">
                                         <span class="text-[10px] text-slate-400 font-bold uppercase tracking-tighter" data-translate="shipping_to">Verzending naar</span>
                                         <span class="font-black text-xl text-slate-800">Ireland</span>
@@ -221,7 +219,7 @@
                                         <i data-feather="chevron-right" class="w-6 h-6"></i>
                                     </div>
                                 </a>
-                                <a href="https://www.fasttrack37.com/PM7HK3TH/2RT84CSB/?uid=49584" target="_blank" rel="noopener noreferrer" class="btn-country group flex items-center justify-between px-6 py-4 rounded-2xl shadow-lg border-[#3FA67B]">
+                                <a href="https://www.fasttrack37.com/PM7HK3TH/2RT84CSB/?uid=49584" rel="noopener noreferrer" class="btn-country group flex items-center justify-between px-6 py-4 rounded-2xl shadow-lg border-[#3FA67B]">
                                     <div class="flex flex-col items-start text-left">
                                         <span class="text-[10px] text-slate-400 font-bold uppercase tracking-tighter" data-translate="shipping_to">Verzending naar</span>
                                         <span class="font-black text-xl text-slate-800">Germany | Austria</span>
@@ -230,7 +228,7 @@
                                         <i data-feather="chevron-right" class="w-6 h-6"></i>
                                     </div>
                                 </a>
-                                <a href="https://www.fasttrack37.com/PM7HK3TH/2RTFMWQQ/?uid=49597" target="_blank" rel="noopener noreferrer" class="btn-country group flex items-center justify-between px-6 py-4 rounded-2xl shadow-lg border-[#3FA67B]">
+                                <a href="https://www.fasttrack37.com/PM7HK3TH/2RTFMWQQ/?uid=49597" rel="noopener noreferrer" class="btn-country group flex items-center justify-between px-6 py-4 rounded-2xl shadow-lg border-[#3FA67B]">
                                     <div class="flex flex-col items-start text-left">
                                         <span class="text-[10px] text-slate-400 font-bold uppercase tracking-tighter" data-translate="shipping_to">Verzending naar</span>
                                         <span class="font-black text-xl text-slate-800">Netherlands</span>
@@ -274,7 +272,7 @@
             </div>
 
             <div class="border-t border-slate-800 pt-10 text-[10px] text-slate-500 max-w-4xl mx-auto leading-relaxed space-y-4 opacity-60 text-center">
-                <p data-translate="disclaimer">VRIJWARING: De resultaten van Nutrivea Stoffwechsel Balance Formula kunnen variëren afhankelijk de individuele metabole gezondheid. De informatie op deze website is uitsluitend bedoeld voor informatieve doeleinden en is geen vervanging voor medisch advies. Dit supplement is niet bedoeld voor het diagnosticeren, behandelen of genezen van ziekten.</p>
+                <p data-translate="disclaimer">VRIJWARING: De resultaten van Nutrivea Stoffwechsel Balance Formula kunnen variëren afhankelijk de individuele metabole gezondheid. De informatie op deze website is uitsluitend bedoeld voor educatieve doeleinden en is geen vervanging voor medisch advies. Dit supplement is niet bedoeld voor het diagnosticeren, behandelen of genezen van ziekten.</p>
                 <p>Google™ is een handelsmerk van Google Inc. Deze site wordt op geen enkele wijze onderschreven door Google.</p>
             </div>
         </div>
@@ -288,7 +286,7 @@
             <div class="relative inline-block align-bottom bg-white rounded-2xl text-left overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full border border-slate-200">
                 <div class="bg-white px-6 py-4 border-b border-slate-100 flex justify-between items-center sticky top-0 z-10">
                     <h3 class="text-xl font-bold text-slate-900" id="modal-title">Juridische Documenten</h3>
-                    <button onclick="hideModal()" class="text-slate-400 hover:text-slate-600 transition-colors p-2 rounded-full hover:bg-slate-100">
+                    <button onclick="hideModal()" class="text-slate-400 hover:text-slate-600 transition-colors p-2 rounded-full">
                         <i data-feather="x"></i>
                     </button>
                 </div>
@@ -310,7 +308,7 @@
                 'benefit_2': 'More Energy',
                 'benefit_3': '100% Natural',
                 'select_country': 'Select your country to order',
-                'discount_badge': 'PROMOTION : -48% DISCOUNT',
+                'discount_badge': 'PROMOTION : -46% DISCOUNT',
                 'shipping_notice': 'Priority Delivery with Tracking Number',
                 'shipping_to': 'Shipping to',
                 'meta_title': 'Nutrivea Metabolism Balance Formula | Natural Energy',
@@ -326,7 +324,7 @@
                 'benefit_2': 'Mehr Energie',
                 'benefit_3': '100% Natürlich',
                 'select_country': 'Wählen Sie Ihr Land zum Bestellen',
-                'discount_badge': 'AKTION : -48% RABATT',
+                'discount_badge': 'AKTION : -46% RABATT',
                 'shipping_notice': 'Prioritärer Versand mit Sendungsverfolgung',
                 'shipping_to': 'Versand nach',
                 'meta_title': 'Nutrivea Stoffwechsel Balance Formula | Energie',
@@ -338,38 +336,10 @@
         };
 
         const modalContent = {
-            'terms': `
-                <h2 class="text-2xl font-bold mb-4 text-[#3FA67B]">General Terms and Conditions</h2>
-                <div class="space-y-4 text-sm">
-                    <p>These Terms apply to all contracts by <strong>Vivello Solutions Ltd.</strong>, 7 Compton Street, Ashbourne, UK.</p>
-                </div>
-            `,
-            'privacy': `
-                <h2 class="text-2xl font-bold mb-4 text-[#3FA67B]">Privacybeleid</h2>
-                <div class="space-y-4 text-sm">
-                    <p>Wij verwerken uw gegevens uitsluitend volgens de AVG-richtlijnen voor orderafhandeling.</p>
-                </div>
-            `,
-            'shipping': `
-                <h2 class="text-2xl font-bold mb-4 text-[#3FA67B]">Verzending en Terugbetaling</h2>
-                <div class="space-y-4 text-sm">
-                    <h4 class="font-bold text-slate-900 text-base">60-Dagen Geld-Terug-Garantie</h4>
-                    <p>Niet tevreden? U kunt tot twee geopende flessen retourneren voor een volledige terugbetaling (eerste aankoop).</p>
-                    <p>Contact: support@getnutrivea.com voor een retour-ID.</p>
-                </div>
-            `,
-            'contact': `
-                <h2 class="text-2xl font-bold mb-6 text-[#3FA67B]">Contact</h2>
-                <div class="grid grid-cols-1 gap-6">
-                    <div class="flex items-center gap-4 bg-green-50 p-6 rounded-2xl">
-                        <div class="bg-[#3FA67B] p-3 rounded-xl text-white shadow-sm"><i data-feather="mail"></i></div>
-                        <div>
-                            <p class="text-[10px] font-bold uppercase text-slate-400">E-mail</p>
-                            <p class="font-bold text-slate-900 text-lg">support@getnutrivea.com</p>
-                        </div>
-                    </div>
-                </div>
-            `
+            'terms': `<h2 class="text-2xl font-bold mb-4 text-[#3FA67B]">Terms and Conditions</h2><p>Vivello Solutions Ltd. | UK Registration</p>`,
+            'privacy': `<h2 class="text-2xl font-bold mb-4 text-[#3FA67B]">Privacy Policy</h2><p>GDPR Compliant.</p>`,
+            'shipping': `<h2 class="text-2xl font-bold mb-4 text-[#3FA67B]">Shipping and Refund</h2><p>60-Day Money-Back Guarantee.</p>`,
+            'contact': `<h2 class="text-2xl font-bold mb-6 text-[#3FA67B]">Support</h2><p>support@getnutrivea.com</p>`
         };
 
         function showModal(type) {
@@ -387,22 +357,17 @@
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            const userLang = navigator.language || navigator.userLanguage; 
-            const langCode = userLang.substring(0, 2).toLowerCase();
-
-            if (langCode !== 'nl' && translations[langCode]) {
+            const userLang = (navigator.language || navigator.userLanguage).substring(0, 2).toLowerCase();
+            if (userLang !== 'nl' && translations[userLang]) {
                 const elements = document.querySelectorAll('[data-translate]');
                 elements.forEach(el => {
                     const key = el.getAttribute('data-translate');
-                    if (translations[langCode][key]) {
-                        if (key === 'meta_title') {
-                            document.title = translations[langCode][key];
-                        } else {
-                            el.innerHTML = translations[langCode][key];
-                        }
+                    if (translations[userLang][key]) {
+                        if (key === 'meta_title') document.title = translations[userLang][key];
+                        else el.innerHTML = translations[userLang][key];
                     }
                 });
-                document.documentElement.lang = langCode;
+                document.documentElement.lang = userLang;
             }
         });
 
@@ -413,9 +378,7 @@
             for (var i = 0; i < reveals.length; i++) {
                 var windowHeight = window.innerHeight;
                 var elementTop = reveals[i].getBoundingClientRect().top;
-                if (elementTop < windowHeight - 50) {
-                    reveals[i].classList.add("active");
-                }
+                if (elementTop < windowHeight - 50) reveals[i].classList.add("active");
             }
         }
         window.addEventListener("scroll", reveal);
