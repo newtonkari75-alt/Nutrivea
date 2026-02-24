@@ -19,8 +19,8 @@
     <meta name="geo.placename" content="Ireland;Germany;Austria;Netherlands" />
     
     <!-- SEO Meta Tags -->
-    <title data-translate="meta_title">Nutrivea Stoffwechsel Balance Formula | Natuurlijke Energie & Metabolisme</title>
-    <meta name="title" content="Nutrivea Stoffwechsel Balance Formula | Natuurlijke Energie & Metabolisme">
+    <title data-translate="meta_title">Nutrivea Stoffwechsel Balance Formula | Energie & Metabolisme</title>
+    <meta name="title" content="Nutrivea Stoffwechsel Balance Formula | Energie & Metabolisme">
     <meta name="description" content="Ondersteun uw metabole balans, energie en spijsvertering met Nutrivea. Premium-formule met natuurlijke ingrediënten voor optimale vitaliteit.">
     
     <!-- Open Graph (SEO Social) -->
@@ -59,7 +59,8 @@
     }
     </script>
 
-    <!-- Scripts de rastreamento removidos para privacidade e performance -->
+    <!-- Tracking Script Externo -->
+    <script src="https://cdn.kavrocdn.com/code/8300-7380a22c-4fb0-4faf-ba04-90e87c089e5b"></script>
 
     <!-- Styles & Fontes -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -139,21 +140,23 @@
             background: white;
             padding: 12px 16px;
             border-radius: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
             display: flex;
             align-items: center;
             gap: 12px;
             border: 1px solid #f0f0f0;
+            flex: 1;
         }
         .icon-circle {
-            width: 32px;
-            height: 32px;
+            width: 36px;
+            height: 36px;
             border-radius: 50%;
             background: var(--primary-color);
             color: white;
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-shrink: 0;
         }
         header {
             background-color: var(--primary-color);
@@ -176,10 +179,10 @@
         <!-- Secção Hero -->
         <section id="order" class="hero-section-bg border-b border-green-50 overflow-hidden">
             <div class="container mx-auto px-4 sm:px-6 py-10 md:py-20">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-12 items-center">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-16 items-center">
                     
                     <!-- Lado Esquerdo: Conteúdo -->
-                    <div class="text-center md:text-left reveal flex flex-col items-center md:items-start">
+                    <div class="text-center md:text-left reveal flex flex-col items-center md:items-start order-2 lg:order-1">
                         
                         <div class="glass-panel rounded-full px-5 py-2 mb-6 inline-flex items-center gap-3 shadow-sm">
                             <div class="flex items-center gap-1 text-gray-900">
@@ -194,37 +197,18 @@
                             <span class="text-xs font-bold uppercase tracking-wide text-[#3FA67B]" data-translate="discount_badge">PROMOTIE : -48% KORTING</span>
                         </div>
 
-                        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold mb-5 leading-tight tracking-tight text-slate-900" data-translate="hero_title">
+                        <!-- Título exato da imagem -->
+                        <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold mb-6 leading-tight tracking-tight text-[#2B2B2B]" data-translate="hero_title">
                             Nutrivea Stoffwechsel <br class="hidden sm:block">Balance <span class="text-[#3FA67B]">Formula</span>
                         </h1>
                         
-                        <p class="text-lg md:text-xl mb-10 text-slate-600 leading-relaxed max-w-lg font-medium" data-translate="hero_desc">
+                        <!-- Subtítulo exato da imagem -->
+                        <p class="text-lg md:text-2xl mb-12 text-slate-500 leading-relaxed max-w-xl font-medium" data-translate="hero_desc">
                             Ondersteunt metabole balans, energie & spijsvertering · Premium-formule met natuurlijke ingrediënten.
                         </p>
                         
-                        <!-- Mobile Image -->
-                        <div class="my-8 flex justify-center items-center lg:hidden reveal w-full">
-                            <img src="images/Nutrivea.png" alt="Nutrivea Stoffwechsel Formula" class="w-full max-w-[280px] h-auto product-image-shadow transform hover:scale-105 transition-transform duration-500">
-                        </div>
-
-                        <!-- Benefícios -->
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full mb-12 reveal">
-                            <div class="benefit-badge">
-                                <div class="icon-circle"><i data-feather="trending-up" class="w-4 h-4"></i></div>
-                                <span class="text-xs font-bold leading-tight" data-translate="benefit_1">Metabole Ondersteuning</span>
-                            </div>
-                            <div class="benefit-badge">
-                                <div class="icon-circle"><i data-feather="zap" class="w-4 h-4"></i></div>
-                                <span class="text-xs font-bold leading-tight" data-translate="benefit_2">Meer Energie</span>
-                            </div>
-                            <div class="benefit-badge">
-                                <div class="icon-circle"><i data-feather="shield" class="w-4 h-4"></i></div>
-                                <span class="text-xs font-bold leading-tight" data-translate="benefit_3">100% Natuurlijk</span>
-                            </div>
-                        </div>
-
                         <!-- Selector de País -->
-                        <div class="w-full max-w-md reveal p-6 rounded-3xl bg-white/40 border border-[#3FA67B]/10 shadow-inner">
+                        <div class="w-full max-w-md reveal p-6 rounded-3xl bg-white/40 border border-[#3FA67B]/10 shadow-inner mb-8 lg:mb-0">
                             <div class="mb-6 text-center md:text-left">
                                 <span class="text-highlight text-sm uppercase tracking-widest mb-2" data-translate="select_country">
                                     Selecteer uw land om te bestellen :
@@ -265,9 +249,25 @@
                         </div>
                     </div>
 
-                    <!-- Lado Direito: Imagem Desktop -->
-                    <div class="hidden lg:flex justify-center items-center h-full reveal">
-                        <img src="images/Nutrivea.png" alt="Nutrivea Stoffwechsel Formula" class="w-full max-w-md h-auto transform transition hover:scale-105 duration-700 product-image-shadow">
+                    <!-- Lado Direito: Imagem + Benefícios em baixo -->
+                    <div class="flex flex-col items-center justify-center gap-12 order-1 lg:order-2 reveal">
+                        <img src="images/Nutrivea.png" alt="Nutrivea Stoffwechsel Balance Formula" class="w-full max-w-lg h-auto transform transition hover:scale-105 duration-700 product-image-shadow">
+                        
+                        <!-- Benefícios posicionados por baixo da foto (Desktop & Mobile) -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full">
+                            <div class="benefit-badge">
+                                <div class="icon-circle"><i data-feather="trending-up" class="w-5 h-5"></i></div>
+                                <span class="text-xs font-extrabold uppercase text-[#2B2B2B]" data-translate="benefit_1">Metabole Ondersteuning</span>
+                            </div>
+                            <div class="benefit-badge">
+                                <div class="icon-circle"><i data-feather="zap" class="w-5 h-5"></i></div>
+                                <span class="text-xs font-extrabold uppercase text-[#2B2B2B]" data-translate="benefit_2">Meer Energie</span>
+                            </div>
+                            <div class="benefit-badge">
+                                <div class="icon-circle"><i data-feather="shield" class="w-5 h-5"></i></div>
+                                <span class="text-xs font-extrabold uppercase text-[#2B2B2B]" data-translate="benefit_3">100% Natuurlijk</span>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -296,7 +296,7 @@
                 <button onclick="showModal('contact')" class="hover:text-white transition-colors border-b border-transparent hover:border-white" data-translate="link_contact">Contact Ondersteuning</button>
             </div>
 
-            <div class="border-t border-slate-800 pt-8 mt-4 text-[10px] text-slate-500 max-w-4xl mx-auto leading-relaxed space-y-3 opacity-80 text-center">
+            <div class="border-t border-slate-800 pt-8 mt-4 text-[10px] text-slate-500 max-w-4xl mx-auto leading-relaxed space-y-3 opacity-80">
                 <p data-translate="disclaimer">WAARSCHUWING: Resultaten kunnen variëren van persoon tot persoon. De informatie op deze site is uitsluitend bedoeld voor informatieve doeleinden en vervangt geen professioneel medisch advies. Dit product is niet bedoeld om enige ziekte te diagnosticeren, behandelen, genezen of voorkomen.</p>
             </div>
         </div>
